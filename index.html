@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards responsivos - @programador.cs</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #fff;
+      margin: 5rem;
+    }
+
+    svg path {
+      fill: #fce57e;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      display: flex;
+      max-width: 150px;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    .card:hover {
+      background-color: #67C683;
+      background-image: linear-gradient(45deg, #097d6c, #097d6c);
+      box-shadow: #f0f0f020 3px 3px 3px 3px;
+    }
+
+    h2 {
+      font-size: 1.0rem;
+      font-family: 'roboto';
+      color: #212123;
+      text-align: center;
+    }
+
+    img {
+      border-radius: 10px;
+      padding: .4rem;
+      filter: brightness(0) saturate(100%) invert(61%) sepia(82%) saturate(336%) hue-rotate(77deg) brightness(98%) contrast(97%);
+    }
+
+    .card:hover img {
+      filter: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(11%) hue-rotate(213deg) brightness(104%) contrast(102%);
+      ;
+      scale: 1.2;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .card:hover h2 {
+      color: #f0f0f0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Disconto na pratica de esporte</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+    <div class="card">
+      <img src="img/favorite_36dp_48752C_FILL0_wght400_GRAD0_opsz40.svg">
+      <h2>Card 1</h2>
+    </div>
+
+  </div>
+</body>
+
+</html>
